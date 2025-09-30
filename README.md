@@ -24,8 +24,8 @@
 - App Control for Business: Forzado / Auditoría  
 
 **Capturas:**
-- ![Antivirus](ruta/a/01_antivirus_windows_security.png)  
-- ![Firewall](ruta/a/02_firewall_windows_security.png)
+- ![Antivirus](images/01_antivirus_windows_security.png)  
+- ![Firewall](images/02_firewall_windows_security.png)
 
 ---
 
