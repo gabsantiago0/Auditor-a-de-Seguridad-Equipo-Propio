@@ -75,3 +75,27 @@ No se requiere acción adicional en cuanto a cierre de puertos. Todas las medida
 
 ---
 
+## 4. Escaneo de vulnerabilidades
+
+**Objetivo:** Identificar vulnerabilidades en el equipo local utilizando Nessus Essentials / OpenVAS.
+
+**Procedimiento realizado:**
+1. Se creó un **Basic Network Scan** para `127.0.0.1`.  
+2. Se ejecutó el scan y se esperó a que finalizara la evaluación de vulnerabilidades.
+
+**Capturas:**
+- Scan en ejecución:
+![Scan en ejecución](images/08_scan_running.png)
+
+- Resultados del scan:
+![Resultados del scan](images/09_scan_results.png)
+
+**Vulnerabilidades detectadas y mitigaciones aplicadas:**
+
+| Vulnerabilidad | Riesgo | Acción tomada |
+|----------------|--------|---------------|
+| SMB Signing Disabled | Medio | Protegido por firewall, no expuesto |
+| VMware Guest Services | Bajo | Servicio necesario, no expuesto a Internet |
+
+**Conclusión:**  
+El escaneo de vulnerabilidades local permitió identificar posibles riesgos en el equipo. Todos los servicios críticos están protegidos por firewall y antivirus. Se aplicaron mitigaciones donde fue posible, y los resultados quedan documentados para fines educativos y de portafolio.
