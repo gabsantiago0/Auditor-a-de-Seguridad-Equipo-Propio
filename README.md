@@ -23,7 +23,6 @@
 - Seguridad basada en virtualización: No habilitado  
 - App Control for Business: Forzado / Auditoría  
 
-**Capturas:**
 ![Antivirus](images/01_antivirus_windows_security.png)  
 ![Firewall](images/02_firewall_windows_security.png)
 
@@ -48,7 +47,6 @@
 **Sistema detectado:**  
 OS: Windows
 
-**Captura:**
 ![Nmap localhost](images/03_nmap_scan.png)
 
 **Conclusión:**  
