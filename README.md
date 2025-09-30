@@ -90,12 +90,5 @@ No se requiere acción adicional en cuanto a cierre de puertos. Todas las medida
 - Resultados del scan:
 ![Resultados del scan](images/09_scan_results.png)
 
-**Vulnerabilidades detectadas y mitigaciones aplicadas:**
-
-| Vulnerabilidad | Riesgo | Acción tomada |
-|----------------|--------|---------------|
-| SMB Signing Disabled | Medio | Protegido por firewall, no expuesto |
-| VMware Guest Services | Bajo | Servicio necesario, no expuesto a Internet |
-
 **Conclusión:**  
 El escaneo de vulnerabilidades local permitió identificar posibles riesgos en el equipo. Todos los servicios críticos están protegidos por firewall y antivirus. Se aplicaron mitigaciones donde fue posible, y los resultados quedan documentados para fines educativos y de portafolio.
