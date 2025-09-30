@@ -49,7 +49,7 @@
 OS: Windows
 
 **Captura:**
-![Nmap localhost](images/Nmap scan.png)
+![Nmap localhost](images/03_nmap_scan.png)
 
 **Conclusión:**  
 Los puertos abiertos corresponden a servicios de Windows y VMware. Los puertos críticos (135 y 445) están protegidos por firewall y no están expuestos a Internet, cumpliendo las buenas prácticas básicas de seguridad.
