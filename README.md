@@ -24,8 +24,8 @@
 - App Control for Business: Forzado / Auditoría  
 
 **Capturas:**
-- ![Antivirus](images/01_antivirus_windows_security.png)  
-- ![Firewall](images/02_firewall_windows_security.png)
+![Antivirus](images/01_antivirus_windows_security.png)  
+![Firewall](images/02_firewall_windows_security.png)
 
 ---
 
@@ -49,7 +49,7 @@
 OS: Windows
 
 **Captura:**
-- ![Nmap localhost](ruta/a/nmap_localhost.png)
+![Nmap localhost](images/Nmap scan.png)
 
 **Conclusión:**  
 Los puertos abiertos corresponden a servicios de Windows y VMware. Los puertos críticos (135 y 445) están protegidos por firewall y no están expuestos a Internet, cumpliendo las buenas prácticas básicas de seguridad.
