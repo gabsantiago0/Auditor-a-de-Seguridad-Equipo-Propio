@@ -51,3 +51,27 @@ OS: Windows
 
 **Conclusión:**  
 Los puertos abiertos corresponden a servicios de Windows y VMware. Los puertos críticos (135 y 445) están protegidos por firewall y no están expuestos a Internet, cumpliendo las buenas prácticas básicas de seguridad.
+
+---
+
+## 3. Medidas de seguridad básicas
+
+### 3.1 Cierre de puertos innecesarios
+
+**Observación:**  
+Tras el escaneo de puertos, se concluye que **no hay puertos innecesarios abiertos** que requieran cierre. Los puertos abiertos corresponden a servicios locales de Windows y VMware, y **están protegidos por el firewall**.
+
+**Tabla resumen:**
+
+| Puerto | Estado | Acción tomada |
+|--------|-------|---------------|
+| 135/tcp | Abierto | Protegido por firewall, no expuesto |
+| 445/tcp | Abierto | Protegido por firewall, no expuesto |
+| 902/tcp | Abierto | Necesario para VMware, no expuesto |
+| 912/tcp | Abierto | Necesario para VMware, no expuesto |
+
+**Conclusión:**  
+No se requiere acción adicional en cuanto a cierre de puertos. Todas las medidas básicas de seguridad están correctamente aplicadas.
+
+---
+
